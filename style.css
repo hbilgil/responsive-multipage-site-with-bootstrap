@@ -43,6 +43,10 @@
   transition: 0.5s;
 }
 
+.gallery {
+  background-color: #f2f2f2;
+}
+
 body {
   padding-top: 50px;
   font-family: "Raleway", sans-serif !important;
