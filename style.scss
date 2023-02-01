@@ -8,3 +8,11 @@ body {
     padding-top: 50px; //give space for carousel images after navbar
     font-family: 'Raleway', sans-serif !important;
 }
+
+.link-light {
+    text-decoration: none;
+    &:hover {
+        opacity: 0.7;
+        transition: 0.4s;
+    }
+}

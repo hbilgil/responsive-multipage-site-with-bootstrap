@@ -50,4 +50,12 @@
 body {
   padding-top: 50px;
   font-family: "Raleway", sans-serif !important;
+}
+
+.link-light {
+  text-decoration: none;
+}
+.link-light:hover {
+  opacity: 0.7;
+  transition: 0.4s;
 }/*# sourceMappingURL=style.css.map */
