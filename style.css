@@ -3,6 +3,27 @@
   height: 600px;
 }
 
+.about {
+  background-color: #f2f2f2;
+}
+
+.seperator {
+  border: none;
+  border-top: 3px solid #343a40;
+  max-width: 250px;
+  margin: 25px auto;
+}
+
+.white-i {
+  color: #343a40;
+  position: relative;
+  top: -60px;
+  text-align: center;
+  font-size: 40px;
+  border: 15px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
 .justified {
   text-align: justify;
 }
