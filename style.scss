@@ -1,0 +1,8 @@
+@import "carousel";
+@import "about";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    padding-top: 50px; //give space for carousel images after navbar
+    font-family: 'Raleway', sans-serif !important;
+}

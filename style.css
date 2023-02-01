@@ -1,1 +1,13 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+.carousel-img {
+  height: 600px;
+}
+
+.justified {
+  text-align: justify;
+}
+
+body {
+  padding-top: 50px;
+  font-family: "Raleway", sans-serif !important;
+}/*# sourceMappingURL=style.css.map */
