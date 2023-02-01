@@ -22,6 +22,14 @@ The main goal of this project is to use HTML5, SCSS elements, rules and methods 
 
 ## Project Reviews
 
-### Desktop (>1000px)
+### Desktop (>1100px)
 
-### Tablets & Mobile (>480px)
+![](images/desktop.gif)
+
+### Tablets (>768px)
+
+![](images/tablet.gif)
+
+### Mobile (>480px)
+
+![](images/mobile.gif)
