@@ -43,7 +43,7 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
+              <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions"
                 >Home</a
               >
             </li>
@@ -51,7 +51,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#references">Team</a>
+              <a class="nav-link" href="#team">Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#gallery">Gallery</a>
@@ -132,7 +132,7 @@
     </div>
 
     <!--!ABOUT section-->
-    <section class="p-5 text-center about">
+    <section id="about" class="p-5 text-center about">
       <div class="container">
         <h2 class="mb-5 font-weight-bold">About</h2>
         <hr class="seperator"/><i class="fa-brands fa-readme grey-i"></i>
@@ -154,7 +154,7 @@
     </section>
 
     <!--!TEAM section-->
-    <section class="p-5 text-center">
+    <section id="team" class="p-5 text-center">
       <div class="container">
         <h2 class="mb-5 font-weight-bold">Team</h2>
         <hr class="seperator"/><i class="fa-solid fa-people-group white-i"></i>
@@ -218,7 +218,7 @@
     </section>
 
     <!--!GALLERY section-->
-    <section class="p-5 text-center gallery">
+    <section id="gallery" class="p-5 text-center gallery">
       <div class="container">
         <h2 class="mb-5 font-weight-bold">Gallery</h2>
         <hr class="seperator"/><i class="fa-solid fa-images grey-i"></i>
@@ -284,7 +284,7 @@
     </section>
 
     <!--!CONTACT section-->
-    <section class="p-5 text-center">
+    <section id="contact" class="p-5 text-center">
       <div class="container">
         <h2 class="mb-5 font-weight-bold">Contact</h2>
         <hr class="seperator"/><i class="fa-solid fa-envelope white-i"></i>
@@ -313,7 +313,7 @@
               <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
             </div>
           </div>
-          <div class="row mb-3">
+          <div class="row">
             <label for="" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
               <button type="submit" class="btn btn-primary">Send</button>
@@ -322,5 +322,16 @@
         </form>
       </div>
     </section>
+
+    <!--!FOOTER section-->
+    <div class="bg-dark text-light text-center p-3">
+      <p class="mb-0 font-weight-bold">
+        Copyright ©
+        <script>
+        document.write(new Date().getFullYear())
+        </script>
+        <a class="link-light" href="https://github.com/hbilgil" target="_blank"> Halil Bilgil </a>
+      </p>
+    </div>
   </body>
 </html>
