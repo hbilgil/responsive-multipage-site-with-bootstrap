@@ -7,3 +7,10 @@
     border: 15px solid white;
     background-color: white;
 }
+
+.card {
+    img:hover {
+        opacity: 0.7;
+        transition: 0.5s;
+    }
+}

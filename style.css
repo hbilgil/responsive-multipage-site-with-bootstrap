@@ -38,6 +38,11 @@
   background-color: white;
 }
 
+.card img:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
 body {
   padding-top: 50px;
   font-family: "Raleway", sans-serif !important;
